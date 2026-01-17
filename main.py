@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Request, HTTPException
-import mysql.connector
+import MySQLdb
 import logging
 import os
 from logging.handlers import RotatingFileHandler
@@ -8,13 +8,13 @@ app = FastAPI()
 
 ### DB 연결을 생성하는 함수 (요청마다 MySQL과 연결)
 def get_db():
-  return mysql.connector.connect(
-      host="localhost",
-      port=3306,
-      user="root",
-      password="1234",
-      database="test_db"
-  )
+    return MySQLdb.connect(
+        host="localhost",
+        user="root",
+        passwd="1234",
+        db="test_db",
+        charset="utf8mb4"
+    )
 
 ## Logging ##
 
