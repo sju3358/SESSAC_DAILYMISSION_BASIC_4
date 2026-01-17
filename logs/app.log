@@ -1,0 +1,10 @@
+2026-01-15 18:59:11,204 | INFO | uvicorn.access | 127.0.0.1:56419 - "GET /todos HTTP/1.1" 200
+2026-01-15 18:59:11,531 | INFO | uvicorn.access | 127.0.0.1:56419 - "GET /todos HTTP/1.1" 200
+2026-01-15 18:59:12,734 | INFO | uvicorn.access | 127.0.0.1:56419 - "GET /todos HTTP/1.1" 200
+2026-01-15 18:59:13,128 | INFO | uvicorn.access | 127.0.0.1:56419 - "GET /todos HTTP/1.1" 200
+2026-01-15 18:59:13,578 | INFO | uvicorn.access | 127.0.0.1:56419 - "GET /todos HTTP/1.1" 200
+2026-01-15 18:59:14,022 | INFO | uvicorn.access | 127.0.0.1:56419 - "GET /todos HTTP/1.1" 200
+2026-01-15 18:59:14,407 | INFO | uvicorn.access | 127.0.0.1:56419 - "GET /todos HTTP/1.1" 200
+2026-01-15 18:59:14,804 | INFO | uvicorn.access | 127.0.0.1:56419 - "GET /todos HTTP/1.1" 200
+2026-01-15 18:59:15,228 | INFO | uvicorn.access | 127.0.0.1:56419 - "GET /todos HTTP/1.1" 200
+2026-01-15 18:59:15,601 | INFO | uvicorn.access | 127.0.0.1:56419 - "GET /todos HTTP/1.1" 200
